@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kampus UTY</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                font-family: 'Poppins', sans-serif;
+                box-sizing: border-box;
+
+            }
+
+            body{
+               
+                min-height: 100vh;
+                position: relative;
+            }
+
+            .landing{
+                height:600px;
+                top: 30px;
+                display: flex;
+                flex-direction:row;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 5vw 0 5vw;
+                z-index: 1000;
+                
+            }
+
+            .landingText p{
+                font-size: 60px;
+                text-align:center;
+                
+                
+            }
+
+            .landingText h3{
+                margin: 5px;
+                font-size: 20px;
+                opacity: 0.7;
+                line-height: 30px;
+                padding: 20px;
+                
+            }
+
+            .landingImg img{
+                width: 28vw;
+            }
+
+            .about{
+                height:900px;
+                padding:50px;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+
+            .aboutText{
+                padding-bottom: 20px;
+                font-style: italic;
+            }
+
+            .about .aboutText p{
+                font-size: 40px;
+                padding: 10px 0 0 0;
+
+            }
+
+            .aboutList{
+                width:100%;
+            }
+
+            ol{
+                list-style: none;
+            }
+
+            ol{
+                font-size:30px;
+                position: relative;
+                opacity: 0.7;
+            }
+
+            li p{
+                font-size: 16px;
+                padding-left: 60px;
+                line-height: 27px;
+                padding-bottom: 25px;
+            }
+
+            .header{
+                text-align: center; 
+                padding: 40px;
+                font-size: 40px;
+                font-style: italic;
+            }
+
+            .row{
+                position: relative;
+                left: 165px;
+            }
+            
+            .column{
+                width:25%;
+                padding: 10px;
+                float: left;
+                
+            }            
+
+            .card{
+                box-shadow: 0 40px 8px 0 rgba(0,0,0,0.2);
+                max-width: 400px;
+                margin: auto;
+                background-color: rgb(95, 165, 251);
+                text-align: center;
+                border-radius: 40px;
+                padding-bottom:  15px;
+                transition: 0.5s ease-in-out;
+                
+            }
+
+            .card:hover{
+                background: rgb(255, 153, 153);
+                transition: 0.5s ease-in-out;
+            }
+
+            .row .title{
+                color: rgb(255, 255, 255);
+                font-size: 40px;
+                padding-bottom: 40px;
+                padding-top: 40px;
+            }
+
+            .row a{
+                text-decoration: none;
+                border: none;
+                padding: 10px;
+                display: inline-block;
+                color: aliceblue;
+                background-color: #333;
+                width:80px;
+                border-radius:20px;
+                font-size: 15px;
+                text-align: center;
+            }
+
+            .row a:hover{
+                background: rgb(255, 97, 97);
+                transition: 0.5s;
+            }
+            
+            .column .card img{
+                opacity: 50%;
+                position: relative;
+                top: 15px
+            }
+
+            .column .card h1{
+                position: relative;
+                top: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+            <div class="landing">
+                <div class="landingText">
+                    <p><strong>Covid-19</strong> Indonesia <br>Selalu Ingat <strong>3M</strong></p>
+                    <h3 align="justify">Pemerintah kembali mengumumkan adanya penambahan kasus aktif Covid-19, yang memperlihatkan bahwa penularan virus corona 
+                        masih terjadi.
+
+                        
+                    </h3>
+                </div>
+                <div class="landingImg">
+                    <img src="covid.png">
+                </div>
+            </div>
+
+            <div class="about">
+                <div class="aboutText">
+                    <p align="center">Protokol Kesehatan <strong>Covid-19</strong></p>  
+                </div>
+                <div class="aboutList">
+                    <div class="aboutContent">
+                        <br>          
+                            <ol>
+                                <li>
+                                    <span>1. Jaga kebersihan tangan</span>
+                                    <p>Bersihkan tangan dengan cairan pencuci tangan atau hand sanitizer, apabila permukaan tangan tidak terlihat kotor.</p>
+                                </li>
+                                <li>
+                                    <span>2. Jangan menyentuh wajah</span>
+                                    <p>Dalam kondisi tangan yang belum bersih, sebisa mungkin hindari menyentuh area wajah, khususnya mata, hidung, dan mulut.</p>
+                                </li>
+                                <li>
+                                    <span>3. Terapkan etika batuk dan bersin</span>
+                                    <p>Ketika kita batuk atau bersin, tubuh akan mengeluarkan virus dari dalam tubuh. Jika virus itu mengenai dan terpapar ke 
+                                        orang lain, maka orang lain bisa terinfeksi virus yang berasal dari tubuh kita.</p>
+                                </li>
+                                <li>
+                                    <span>4. pakai masker</span>
+                                    <p>Bagi Anda yang memiliki gejala gangguan pernapasan, kenakanlah masker medis ke mana pun saat Anda keluar rumah atau berinteraksi
+                                         dengan orang lain.</p>
+                                </li>
+                                <li>
+                                    <span>5. Jaga jarak</span>
+                                    <p>Untuk menghindari terjadinya paparan virus dari orang ke orang lain, kita harus senantiasa menjaga jarak dengan orang lain minimal 1 meter.</p>
+                                </li>
+                                <li>
+                                    <span>6. Jaga kesehatan</span>
+                                    <p>Bagi Anda yang merasa tidak sehat, seperti mengalami demam, batuk/pilek/nyeri tenggorokan/sesak napas, diminta untuk secara sadar dan 
+                                        sukarela melakukan isolasi mandiri di dalam rumah.</p>
+                                </li>
+                                <li>
+                                    <span>7. Isolasi mandiri</span>
+                                    <p>Selama berada di dalam rumah atau berkegiatan di luar rumah, pastikan kesehatan fisik tetap terjaga dengan berjemur sinar matahari pagi 
+                                        selama beberapa menit, mengonsumsi makanan bergizi seimbang, dan melakukan olahraga ringan.</p>
+                                </li>
+                            </ol>
+                    </div>
+                </div>
+            </div>
+
+           <div class="header">
+               <p>UPDATE <strong>Covid-19</strong> Indonesia</p>
+               <p>8 Maret 2021</p>
+           </div>
+                <div class="row">
+                    <div class="column">
+                        <div class="card">
+                            <img src="covid.png">
+                            <h1>Positif</h1>
+                            <p class="title">6.894</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="covid.png">
+                            <h1>Sembuh</h1>
+                            <p class="title">8.725</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="card">
+                            <img src="covid.png">
+                            <h1>Meninggal</h1>
+                            <p class="title">281</p>
+                        </div>
+                    </div>
+                </div>
+    </body>
+</html>

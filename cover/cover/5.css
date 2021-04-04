@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.judul{
+    display: flex;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    top: 25px;
+    padding-top: 80px;
+    font-size: 70px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.container{
+    display: flex;
+    width: 1050px;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin: 20px;
+    padding-top: 100px;
+}
+
+.container .card{
+    position: relative;
+    height:250px;
+    background: #fff;
+    display: flex;
+    width: 45%;
+    margin: 30px 0;
+    box-shadow: 8px 8px 12px rgb(141, 138, 138);
+}
+
+.container .card .gambar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background: rgb(211, 211, 211);
+    z-index: 1;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    transition: 0.5s ease-in-out;
+}
+
+.container .card:hover .gambar{
+    width: 150px;
+    height: 150px;
+    left: -75;
+    top: calc(50% - 75px);
+    background: rgb(255, 97, 97);
+}
+
+.container .card .content{
+    position: absolute;
+    right: 0;
+    padding: 20px;
+    width: calc(100% - 75px);
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .card .content h3{
+    text-align: center;
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.container .card .content a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background:#333;
+    text-decoration: none;
+    color: #fff;
+    
+    
+}
+
+.container .card .content a:hover{
+    width:100px;
+    height:28px;
+    background: rgb(255, 97, 97);
+
+}
+
+ul{
+    list-style-type: none;
+    text-decoration: none;
+    font-style: none;
+    background-color:white ;
+    box-shadow: black;
+    color: white;
+    overflow:hidden;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+li { 
+    float:left;
+    border-right: 1px #bbb;
+
+}
+
+li a{ 
+    color:black;
+    display: block;
+    text-align:center ;
+    padding: 22px 16px;
+    text-decoration:none ;
+    font: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.active{ 
+    background-color: rgb(74, 204, 243);
+    color: white;
+}
+
+li a:hover{ 
+    background-color: rgb(2, 133, 255);
+    color: white;
+}
+
+footer{ 
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px ;
+    z-index: 1;
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 650px;
+
+}
